@@ -28,7 +28,16 @@
 - **`SKILL.md`** —— 给 AI 看的：技能定义与执行步骤（Claude Code Skill 格式）
 - **`examples/`** —— 一组完整的输入输出示例，用合成数据写成
 
-想直接用：把 `skills/<名称>/SKILL.md` 放进你的 Claude Code 技能目录，然后描述你的任务即可，技能会按里面的步骤执行。
+想直接用，把 skill 装到你的 AI 工具里即可：
+
+- **Claude Code**：把 skills/<名称>/ 整个文件夹复制到 ~/.claude/skills/ 下
+- **Codex CLI**：把 skills/<名称>/ 整个文件夹复制到 ~/.codex/skills/ 下
+- **网页版 GPT / ChatGPT**：打开 skills/<名称>/SKILL.md，把内容粘贴到对话开头，说「按这个流程执行」
+
+装好后直接描述你的任务，技能会按 SKILL.md 里的步骤执行。
+
+注意：本技能在执行前会检查是否安装了排版 skill gzh-design。
+没有装时会主动询问你，不会静默降级——所以第一次使用时看到询问是正常的。
 
 想先看效果：翻对应 skill 的 `examples/`，先看 `input.md` 再看 `output.md`。
 
