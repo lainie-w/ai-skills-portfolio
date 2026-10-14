@@ -1,0 +1,36 @@
+# ---------- 操作系统 ----------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# ---------- 密钥与凭证（绝对不要提交）----------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+
+# ---------- 依赖与构建产物 ----------
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- 编辑器与 IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- 日志与临时文件 ----------
+*.log
+*.tmp
+.cache/
