@@ -121,4 +121,4 @@
 
 ---
 
-上级目录：[AI 作品集](../../README.md) · 协议 [MIT](../../LICENSE)
+上级目录：[AI 作品集](../../README.md) · 协议 [CC BY-NC 4.0](../../LICENSE)

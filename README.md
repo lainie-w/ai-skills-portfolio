@@ -1,5 +1,7 @@
 # AI 作品集 · lainie-w
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 这里放我做的 AI 技能（skill）。每一个都是为了解决我自己在实际工作里遇到的一个具体问题，不是演示 demo。
 
 ## 我解决的问题
@@ -17,7 +19,7 @@
 | Skill | 一句话说明 | 位置 |
 |---|---|---|
 | [lexicon-atelier](skills/lexicon-atelier/README.md) | 从行业报告提炼结构化术语词条，并排成术语词典式公众号文章 | 本仓库（`skills/lexicon-atelier/`） |
-| [doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence) | 从医生姓名和机构出发，对公开来源做可溯源的尽调，产出结构化 Word 报告 | 独立仓库：[lainie-w/doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence) |
+| [doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence) | 从医生姓名和机构出发，对公开来源做可溯源的尽调，产出结构化 Word 报告 | 独立仓库：[lainie-w/doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence)（CC BY-NC 4.0） |
 
 每新增一个技能，我会在这个表格里加一行，并在 `skills/` 下加一个目录。独立仓库的 skill 会在表格里标注链接，不再重复放进本仓库的 `skills/` 目录。
 
@@ -47,7 +49,7 @@
 ```
 .
 ├── README.md              你正在看的这份
-├── LICENSE                MIT
+├── LICENSE                CC BY-NC 4.0
 ├── .gitignore
 └── skills/
     └── lexicon-atelier/
@@ -64,4 +66,6 @@
 
 ## 协议
 
-[MIT](LICENSE) © 2026 lainie-w
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) © 2026 lainie-w
+
+本作品允许自由使用、修改和分享，但禁止商业使用。
