@@ -14,11 +14,12 @@
 
 ## 作品集里有什么
 
-| Skill | 一句话说明 | 状态 |
+| Skill | 一句话说明 | 位置 |
 |---|---|---|
-| [lexicon-atelier](skills/lexicon-atelier/README.md) | 从行业报告提炼结构化术语词条，并排成术语词典式公众号文章 | 可用 |
+| [lexicon-atelier](skills/lexicon-atelier/README.md) | 从行业报告提炼结构化术语词条，并排成术语词典式公众号文章 | 本仓库（`skills/lexicon-atelier/`） |
+| [doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence) | 从医生姓名和机构出发，对公开来源做可溯源的尽调，产出结构化 Word 报告 | 独立仓库：[lainie-w/doctor-kol-due-diligence](https://github.com/lainie-w/doctor-kol-due-diligence) |
 
-每新增一个技能，我会在这个表格里加一行，并在 `skills/` 下加一个目录。
+每新增一个技能，我会在这个表格里加一行，并在 `skills/` 下加一个目录。独立仓库的 skill 会在表格里标注链接，不再重复放进本仓库的 `skills/` 目录。
 
 ## 怎么用
 
